@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+/* Adding background color to body and some border as well*/
+body
+{
+    background:white;
+    text-align: center;
+    font-family: sans-serif;
+}
+/*Light red color*/
+
+/*Main Cointainer*/
+.container{
+    display:grid;
+    grid-auto-rows: minmax(200px,200px);
+    grid-gap: 1rem;
+    border: 5px solid #3c3d47;
+    justify-content: center;
+
+}
+.grid2{
+    display:grid;
+    grid-template-columns:50% 50% ;
+    grid-auto-rows: minmax(56rem,auto);
+    grid-gap: 1rem;
+    border: 5px solid #3c3d47;
+    justify-content: center;
+
+}
+.Bild{
+    background-color: aqua;
+}
+.text2{
+    background-color:blue;
+}
+
+.start{
+    background:url("start.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.item2
+{
+    color:white;
+    font-weight: bold;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4);
+    font-size:3rem;
+    padding: 20rem;
+    text-align: center;
+
+}
+
+
