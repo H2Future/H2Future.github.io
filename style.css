@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+/* Adding background color to body and some border as well*/
+body
+{
+    background:white;
+    text-align: center;
+    font-family: sans-serif;
+}
+/*Light red color*/
+
+
+.grid2{
+    display:grid;
+    grid-template-columns:65% 35% ;
+    grid-auto-rows: minmax(50rem,auto);
+    justify-content: center;
+
+}
+.gird3{
+    display:grid;
+    grid-template-columns:65% 35% ;
+    grid-auto-rows: minmax(50rem,auto);
+    justify-content: center;
+}
+.Bild3{
+    background: url("3-format1001_waifu2x_3840x2160_2n_jpg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: relative;
+}
+
+.Bild{
+    background-color: aqua;
+}
+.Bild2{
+    background: url("station01_mobile_waifu2x_3840x2160_2n_jpg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: relative;
+    
+    
+    
+}
+.text2{
+    background-color:blue;
+}
+.text3{
+    padding-top: 5rem;
+    background-color:#3b83bd;
+}
+.text4{
+    text-align: left;
+    padding-left:3rem;
+    font-family: arial;
+    padding-top: 1rem;
+    font-size: 2rem;
+
+
+}
+.text5{
+    padding-top: 5rem;
+    background-color: #c6c6cc;
+}
+p{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    font-size:1.5rem;
+}
+.text6{
+    text-align: left;
+    padding-left:3rem;
+    font-family: arial;
+    padding-top: 1rem;
+    font-size: 2rem;
+}
+li{
+    padding-top:1rem;
+    font-size: 1.5rem;
+    
+}
+.aboutheading{
+    font-size:2rem;
+    
+}
+.heading2{
+    font-size:2rem;
+    text-align: center;
+}
+.start{
+    background:url("start.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.item2
+{
+    color:white;
+    font-weight: bold;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4);
+    font-size:3rem;
+    padding: 20rem;
+    text-align: center;
+
+}
+
+
